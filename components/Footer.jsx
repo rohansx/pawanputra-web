@@ -11,12 +11,12 @@ export default function Footer() {
                         <h2 className="pb-4 text-xl font-semibold">COMPANY</h2>
                         <div className="flex flex-col ">
                             <Link className="py-1 hover:underline" href="/about">About Us</Link>
-                            <Link className="py-1 hover:underline" href="/press">Press</Link>
+                            {/* <Link className="py-1 hover:underline" href="/press">Press</Link> */}
                             <Link className="py-1 hover:underline" href="/careers">Careers</Link>
                             <Link className="py-1 hover:underline" href="/contact">Contact</Link>
                         </div>
                     </div>
-                    <div>
+                    {/* <div>
                         <h2 className="pb-4 text-xl font-semibold">DEVELOPMENT</h2>
                         <div className="flex flex-col ">
                             <Link className="py-1 hover:underline" href="/about">Documentation</Link>
@@ -24,13 +24,13 @@ export default function Footer() {
                             <Link className="py-1 hover:underline" href="/careers">Changelog</Link>
                             <Link className="py-1 hover:underline" href="/contact">Status</Link>
                         </div>
-                    </div>
+                    </div> */}
                     <div>
                         <h2 className="pb-4 text-xl font-semibold">CONNECT</h2>
                         <div className="flex flex-col ">
-                            <Link className="py-1 hover:underline" href="/about">Instagram</Link>
-                            <Link className="py-1 hover:underline" href="/press">Linkedin</Link>
-                            <Link className="py-1 hover:underline" href="/careers">Twitter</Link>
+                            <Link className="py-1 hover:underline" href="/about">Youtube</Link>
+                            <Link className="py-1 hover:underline" href="/press">Facebook</Link>
+                            {/* <Link className="py-1 hover:underline" href="/careers">Twitter</Link> */}
                         </div>
                     </div>
                 </div>
@@ -41,7 +41,7 @@ export default function Footer() {
                         <button className="absolute h-10 px-3 text-sm text-white bg-black rounded-full top-2 right-2 hover:border-2 hover:border-black hover:bg-white hover:text-black">Subscribe</button>
                     </div>
                     <p className="pt-4 text-gray-500">
-                        By subscribing to our newsletter, you agree to receive emails from us. Your personal data will be stored and processed in accordance with our Privacy Policy and you can unsubscribe at any time.
+                        Put your email here and we'll get back to you. Your personal data will be stored and processed in accordance with our Privacy Policy and you can unsubscribe at any time.
                     </p>
                 </div>
             </div>
